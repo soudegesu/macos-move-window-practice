@@ -10,6 +10,7 @@ import SwiftUI
 class DraggableNSView: NSView {
 
   private var isDragging: Bool = false
+  private var isFirstMouse: Bool = false
   
   override public func mouseDown(with event: NSEvent) {
     debugPrint("mouseDown")
@@ -17,21 +18,35 @@ class DraggableNSView: NSView {
   }
   
   override public func mouseUp(with event: NSEvent) {
+    // Fire mouseUp event twice when firstMouse  triggered
+    if isFirstMouse {
+      isFirstMouse = false
+      return
+    }
+
     debugPrint("mouseUp")
     if !isDragging {
       super.mouseDown(with: event)
       super.mouseUp(with: event)
     }
+    
     isDragging = false
   }
-  
     
   override public func mouseDragged(with event: NSEvent) {
     debugPrint("mouseDragged")
     isDragging = true
-    window?.mouseDragged(with: event)
   }
-
+    
+  override func acceptsFirstMouse(for event: NSEvent?) -> Bool {
+    switch (event?.type) {
+    case .leftMouseDown:
+      isFirstMouse = true
+      return true
+    default:
+      return false
+    }
+  }
 }
 
 struct DraggableView: NSViewRepresentable {
