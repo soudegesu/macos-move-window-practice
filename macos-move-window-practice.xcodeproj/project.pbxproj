@@ -14,6 +14,7 @@
 		9B1666BB262197310032448F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1666B9262197310032448F /* Main.storyboard */; };
 		9B1666C7262197310032448F /* macos_move_window_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1666C6262197310032448F /* macos_move_window_practiceTests.swift */; };
 		9B1666D2262197310032448F /* macos_move_window_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1666D1262197310032448F /* macos_move_window_practiceUITests.swift */; };
+		9B1666F02621D7A40032448F /* View+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1666EF2621D7A40032448F /* View+Modifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		9B1666CD262197310032448F /* macos-move-window-practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macos-move-window-practiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1666D1262197310032448F /* macos_move_window_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_move_window_practiceUITests.swift; sourceTree = "<group>"; };
 		9B1666D3262197310032448F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1666EF2621D7A40032448F /* View+Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Modifier.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				9B1666B2262197300032448F /* ContentView.swift */,
 				9B1666B4262197310032448F /* Assets.xcassets */,
 				9B1666B9262197310032448F /* Main.storyboard */,
+				9B1666EF2621D7A40032448F /* View+Modifier.swift */,
 				9B1666BC262197310032448F /* Info.plist */,
 				9B1666BD262197310032448F /* macos_move_window_practice.entitlements */,
 				9B1666B6262197310032448F /* Preview Content */,
@@ -267,6 +270,7 @@
 			files = (
 				9B1666B3262197300032448F /* ContentView.swift in Sources */,
 				9B1666B1262197300032448F /* AppDelegate.swift in Sources */,
+				9B1666F02621D7A40032448F /* View+Modifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

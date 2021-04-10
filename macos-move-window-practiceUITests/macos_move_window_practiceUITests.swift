@@ -2,7 +2,7 @@
 //  macos_move_window_practiceUITests.swift
 //  macos-move-window-practiceUITests
 //
-//  Created by Takaaki Suzuki on 2021/04/10.
+//  Created by soudegesu on 2021/04/10.
 //
 
 import XCTest

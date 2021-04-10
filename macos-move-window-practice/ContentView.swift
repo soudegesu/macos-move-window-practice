@@ -2,16 +2,24 @@
 //  ContentView.swift
 //  macos-move-window-practice
 //
-//  Created by Takaaki Suzuki on 2021/04/10.
+//  Created by soudegesu on 2021/04/10.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
+    
+  var body: some View {
+    VStack {
+      Button(action: {
+        debugPrint("Button is clicked")
+      }) {
         Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-    }
+      }
+      .padding()
+      .moveWindowWithDrag()
+    }.frame(width: 300, height: 300)
+  }
 }
 
 
