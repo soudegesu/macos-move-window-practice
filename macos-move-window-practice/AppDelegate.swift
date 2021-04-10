@@ -28,6 +28,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     window.setFrameAutosaveName("Main Window")
     window.contentView = NSHostingView(rootView: contentView)
     window.makeKeyAndOrderFront(nil)
+    window.acceptsMouseMovedEvents = true
+    window.isMovable = true
+    window.isMovableByWindowBackground = true
   }
 
   func applicationWillTerminate(_ aNotification: Notification) {
