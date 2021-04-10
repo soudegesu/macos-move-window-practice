@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B1666B1262197300032448F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1666B0262197300032448F /* AppDelegate.swift */; };
+		9B1666B3262197300032448F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1666B2262197300032448F /* ContentView.swift */; };
+		9B1666B5262197310032448F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1666B4262197310032448F /* Assets.xcassets */; };
+		9B1666B8262197310032448F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1666B7262197310032448F /* Preview Assets.xcassets */; };
+		9B1666BB262197310032448F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1666B9262197310032448F /* Main.storyboard */; };
+		9B1666C7262197310032448F /* macos_move_window_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1666C6262197310032448F /* macos_move_window_practiceTests.swift */; };
+		9B1666D2262197310032448F /* macos_move_window_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1666D1262197310032448F /* macos_move_window_practiceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B1666C3262197310032448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B1666A5262197300032448F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B1666AC262197300032448F;
+			remoteInfo = "macos-move-window-practice";
+		};
+		9B1666CE262197310032448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B1666A5262197300032448F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B1666AC262197300032448F;
+			remoteInfo = "macos-move-window-practice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B1666AD262197300032448F /* macos-move-window-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macos-move-window-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1666B0262197300032448F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B1666B2262197300032448F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B1666B4262197310032448F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B1666B7262197310032448F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B1666BA262197310032448F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B1666BC262197310032448F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1666BD262197310032448F /* macos_move_window_practice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macos_move_window_practice.entitlements; sourceTree = "<group>"; };
+		9B1666C2262197310032448F /* macos-move-window-practiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macos-move-window-practiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1666C6262197310032448F /* macos_move_window_practiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_move_window_practiceTests.swift; sourceTree = "<group>"; };
+		9B1666C8262197310032448F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1666CD262197310032448F /* macos-move-window-practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macos-move-window-practiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1666D1262197310032448F /* macos_move_window_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_move_window_practiceUITests.swift; sourceTree = "<group>"; };
+		9B1666D3262197310032448F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B1666AA262197300032448F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1666BF262197310032448F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1666CA262197310032448F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B1666A4262197300032448F = {
+			isa = PBXGroup;
+			children = (
+				9B1666AF262197300032448F /* macos-move-window-practice */,
+				9B1666C5262197310032448F /* macos-move-window-practiceTests */,
+				9B1666D0262197310032448F /* macos-move-window-practiceUITests */,
+				9B1666AE262197300032448F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B1666AE262197300032448F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B1666AD262197300032448F /* macos-move-window-practice.app */,
+				9B1666C2262197310032448F /* macos-move-window-practiceTests.xctest */,
+				9B1666CD262197310032448F /* macos-move-window-practiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B1666AF262197300032448F /* macos-move-window-practice */ = {
+			isa = PBXGroup;
+			children = (
+				9B1666B0262197300032448F /* AppDelegate.swift */,
+				9B1666B2262197300032448F /* ContentView.swift */,
+				9B1666B4262197310032448F /* Assets.xcassets */,
+				9B1666B9262197310032448F /* Main.storyboard */,
+				9B1666BC262197310032448F /* Info.plist */,
+				9B1666BD262197310032448F /* macos_move_window_practice.entitlements */,
+				9B1666B6262197310032448F /* Preview Content */,
+			);
+			path = "macos-move-window-practice";
+			sourceTree = "<group>";
+		};
+		9B1666B6262197310032448F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B1666B7262197310032448F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B1666C5262197310032448F /* macos-move-window-practiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B1666C6262197310032448F /* macos_move_window_practiceTests.swift */,
+				9B1666C8262197310032448F /* Info.plist */,
+			);
+			path = "macos-move-window-practiceTests";
+			sourceTree = "<group>";
+		};
+		9B1666D0262197310032448F /* macos-move-window-practiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B1666D1262197310032448F /* macos_move_window_practiceUITests.swift */,
+				9B1666D3262197310032448F /* Info.plist */,
+			);
+			path = "macos-move-window-practiceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B1666AC262197300032448F /* macos-move-window-practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1666D6262197310032448F /* Build configuration list for PBXNativeTarget "macos-move-window-practice" */;
+			buildPhases = (
+				9B1666A9262197300032448F /* Sources */,
+				9B1666AA262197300032448F /* Frameworks */,
+				9B1666AB262197300032448F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macos-move-window-practice";
+			productName = "macos-move-window-practice";
+			productReference = 9B1666AD262197300032448F /* macos-move-window-practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B1666C1262197310032448F /* macos-move-window-practiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1666D9262197310032448F /* Build configuration list for PBXNativeTarget "macos-move-window-practiceTests" */;
+			buildPhases = (
+				9B1666BE262197310032448F /* Sources */,
+				9B1666BF262197310032448F /* Frameworks */,
+				9B1666C0262197310032448F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B1666C4262197310032448F /* PBXTargetDependency */,
+			);
+			name = "macos-move-window-practiceTests";
+			productName = "macos-move-window-practiceTests";
+			productReference = 9B1666C2262197310032448F /* macos-move-window-practiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B1666CC262197310032448F /* macos-move-window-practiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1666DC262197310032448F /* Build configuration list for PBXNativeTarget "macos-move-window-practiceUITests" */;
+			buildPhases = (
+				9B1666C9262197310032448F /* Sources */,
+				9B1666CA262197310032448F /* Frameworks */,
+				9B1666CB262197310032448F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B1666CF262197310032448F /* PBXTargetDependency */,
+			);
+			name = "macos-move-window-practiceUITests";
+			productName = "macos-move-window-practiceUITests";
+			productReference = 9B1666CD262197310032448F /* macos-move-window-practiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B1666A5262197300032448F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9B1666AC262197300032448F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					9B1666C1262197310032448F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 9B1666AC262197300032448F;
+					};
+					9B1666CC262197310032448F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 9B1666AC262197300032448F;
+					};
+				};
+			};
+			buildConfigurationList = 9B1666A8262197300032448F /* Build configuration list for PBXProject "macos-move-window-practice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B1666A4262197300032448F;
+			productRefGroup = 9B1666AE262197300032448F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B1666AC262197300032448F /* macos-move-window-practice */,
+				9B1666C1262197310032448F /* macos-move-window-practiceTests */,
+				9B1666CC262197310032448F /* macos-move-window-practiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B1666AB262197300032448F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1666BB262197310032448F /* Main.storyboard in Resources */,
+				9B1666B8262197310032448F /* Preview Assets.xcassets in Resources */,
+				9B1666B5262197310032448F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1666C0262197310032448F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1666CB262197310032448F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B1666A9262197300032448F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1666B3262197300032448F /* ContentView.swift in Sources */,
+				9B1666B1262197300032448F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1666BE262197310032448F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1666C7262197310032448F /* macos_move_window_practiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1666C9262197310032448F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1666D2262197310032448F /* macos_move_window_practiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B1666C4262197310032448F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B1666AC262197300032448F /* macos-move-window-practice */;
+			targetProxy = 9B1666C3262197310032448F /* PBXContainerItemProxy */;
+		};
+		9B1666CF262197310032448F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B1666AC262197300032448F /* macos-move-window-practice */;
+			targetProxy = 9B1666CE262197310032448F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B1666B9262197310032448F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B1666BA262197310032448F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B1666D4262197310032448F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B1666D5262197310032448F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9B1666D7262197310032448F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macos-move-window-practice/macos_move_window_practice.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"macos-move-window-practice/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "macos-move-window-practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soudegesu.macos-move-window-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9B1666D8262197310032448F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macos-move-window-practice/macos_move_window_practice.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"macos-move-window-practice/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "macos-move-window-practice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soudegesu.macos-move-window-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9B1666DA262197310032448F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macos-move-window-practiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soudegesu.macos-move-window-practiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macos-move-window-practice.app/Contents/MacOS/macos-move-window-practice";
+			};
+			name = Debug;
+		};
+		9B1666DB262197310032448F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macos-move-window-practiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soudegesu.macos-move-window-practiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macos-move-window-practice.app/Contents/MacOS/macos-move-window-practice";
+			};
+			name = Release;
+		};
+		9B1666DD262197310032448F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macos-move-window-practiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soudegesu.macos-move-window-practiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "macos-move-window-practice";
+			};
+			name = Debug;
+		};
+		9B1666DE262197310032448F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macos-move-window-practiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soudegesu.macos-move-window-practiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "macos-move-window-practice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B1666A8262197300032448F /* Build configuration list for PBXProject "macos-move-window-practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1666D4262197310032448F /* Debug */,
+				9B1666D5262197310032448F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1666D6262197310032448F /* Build configuration list for PBXNativeTarget "macos-move-window-practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1666D7262197310032448F /* Debug */,
+				9B1666D8262197310032448F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1666D9262197310032448F /* Build configuration list for PBXNativeTarget "macos-move-window-practiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1666DA262197310032448F /* Debug */,
+				9B1666DB262197310032448F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1666DC262197310032448F /* Build configuration list for PBXNativeTarget "macos-move-window-practiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1666DD262197310032448F /* Debug */,
+				9B1666DE262197310032448F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B1666A5262197300032448F /* Project object */;
+}
