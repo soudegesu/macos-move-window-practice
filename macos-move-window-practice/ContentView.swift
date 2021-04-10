@@ -8,16 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+  
+  private let buttonLabels = [
+    "Label A",
+    "Label B",
+    "Label C"
+  ]
+  
   var body: some View {
     VStack {
-      Button(action: {
-        debugPrint("Button is clicked")
-      }) {
-        Text("Hello, World!")
+      ForEach(buttonLabels.indices, id: \.self) { index in
+        Button(action: {
+          debugPrint("\(buttonLabels[index]) is clicked")
+        }) {
+          Text(buttonLabels[index])
+        }
+        .padding()
+        .moveWindowWithDrag()
       }
-      .padding()
-      .moveWindowWithDrag()
     }.frame(width: 300, height: 300)
   }
 }
